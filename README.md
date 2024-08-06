@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# React - Text expander 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🔗 [Live Preview](https://thisistextexpander.netlify.app/)
 
-## Available Scripts
+![Design preview](./public/preview.gif)
 
-In the project directory, you can run:
+## About 👋
 
-### `npm start`
+This React component is a simple practice app that provides a flexible way to expand and collapse text content based on specified parameters. It offers customization options for the number of collapsed words, button text, button color, and initial expanded state.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Props 👨‍💻
+- **collapsedNumWords:** (number, optional): The number of words to display when collapsed. Defaults to 10.
+- **expandButtonText:** (string, optional): The text for the expand button. Defaults to "Show more".
+- collapseButtonText (string, optional): The text for the collapse button. Defaults to "Show less".
+- **buttonColor:** (string, optional): The color of the button.
+- **className:** (string, optional): Additional CSS class for the component.
+- **children:** (node): The text content to be expanded or collapsed.
+- **expanded:** (boolean, optional): Whether the content should be initially expanded. Defaults to false.
 
-### `npm test`
+## Languages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React: functions, conditionals, useState, components.
+- Styling: basic CSS
