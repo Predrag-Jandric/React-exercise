@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+
 }
 
 .box {
@@ -12,4 +13,8 @@ body {
   border: 1px solid #ccc;
   border-radius: 7px;
   background-color: #f7f7f7;
+}
+
+.main {
+  
 }
